@@ -23,3 +23,74 @@ form {
 }
 
 /*The above code is for the search bar interface*/
+
+div.header{
+  display:table;
+  width:20%;
+  table-layout:fixed;
+  position:relative;
+  top:5%;
+  right:-70%;
+  background-color:white;
+  height:10%;
+  margin-top:10px;
+}
+
+div.header span{
+  display:table-cell;
+  text-align:right;
+}
+
+/* The above code makes up the header links*/
+
+div.footer{
+  background-color:silver;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+div.footer #left_just{
+  display:table;
+  width:20%;
+  table-layout:fixed;
+  height:10%;
+  margin-bottom:5px;
+}
+
+div.footer #left_just span{
+  display:table-cell;
+  text-align:center;
+}
+
+div.footer #middle_just{
+  display:table;
+  width:60%;
+  table-layout:fixed;
+  height:10%;
+  margin-bottom:5px;
+}
+
+div.footer #middle_just span{
+  display:table-cell;
+  table-layout: fixed;
+}
+
+div.footer #right_just{
+  display:table;
+  width:20%;
+  table-layout:fixed;
+  height:10%;
+  margin-bottom:5px;
+}
+
+div.footer #right_just span{
+  display:table-cell;
+  table-layout: fixed;
+}
+
+#logo{
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
