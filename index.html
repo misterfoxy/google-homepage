@@ -1,43 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang ="en">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+    <meta charset="utf-8">
+
     <title> Google</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="all" >
+    <link rel="stylesheet" href="reset.css" type="text/css" media="all">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
 
   <body>
-    <div class="header">
-      <span> Gmail </span>
-      <span> Images </span>
-      <span> Sign in </span>
-    </div>
-    
+
+    <nav id="top nav">
+      <a id="gmail" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+      <a id="images" href ="https://images.google.com">Images</a>
+      <a id="apps" href="https://www.google.co.uk.intl/en/options/" title="Google apps" alt="Google apps"></a>
+      <a id="login" href="https://accounts.google.com"> Sign in</a>
+    </nav>
+
     <div id="logo">
-      <img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png"/>
+      <div id="country"> US</div>
     </div>
 
-    <form>
-      <input type ="text" placeholder="Search..." required>
-      <input type ="button" value="Search">
-    </form>
-
-    <div class="footer">
-      <div id="left_just">
-        <span> Advertising</span>
-        <span> Business</span>
-        <span> About</span>
-      </div>
-
-      <div id="middle_just">
-        <span></span>
-      </div>
-
-      <div id="right_just">
-        <span>Privacy</span>
-        <span>Terms</span>
-        <span>Settings</span>
-      </div>
+    <div id="search">
+      <form>
+        <input id="search-bar" type="text" name="searchbox">
+        <div id="buttons">
+          <input id="google-search" type="submit" value ="Google Search">
+          <input id="lucky" type="submit" value="I'm Feeling Lucky">
+        </div>
+      </form>
     </div>
+
+    <footer>
+      <ul id="leftfoot">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+      <ul id="rightfoot">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </footer>
 
   </body>
 </html>
